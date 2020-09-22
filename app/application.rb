@@ -11,7 +11,7 @@ class Application
  binding.pry
     # resp.write "#{time_1}\n"
     # resp.write "#{time_2}\n"
-    resp.write "#{Time.now}\n"
+    # resp.write "#{Time.now}\n"
     
     # if time_1 && time_2 == Time.now
     if Time.now < 12
