@@ -12,8 +12,10 @@ class Application
     # resp.write "#{time_1}\n"
     # resp.write "#{time_2}\n"
     # resp.write "#{Time.now}\n"
+    
     current_time = Time.now
-    # if time_1 && time_2 == Time.now
+  
+    
     if Time.now < 12
       resp.write "Good Morning!"
     else
