@@ -7,7 +7,7 @@ class Application
   # time_1 = Kernel.rand(1..12)
   # time_2 = Kernel.rand(12..24)
   
- Time.now
+ 
  binding.pry
     # resp.write "#{time_1}\n"
     # resp.write "#{time_2}\n"
