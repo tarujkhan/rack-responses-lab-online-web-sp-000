@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 class Application
  
   def call(env)
@@ -8,7 +8,7 @@ class Application
   # time_2 = Kernel.rand(12..24)
   
  
- binding.pry
+# binding.pry
     # resp.write "#{time_1}\n"
     # resp.write "#{time_2}\n"
     # resp.write "#{Time.now}\n"
