@@ -1,0 +1,26 @@
+require 'pry'
+class Application
+ 
+  def call(env)
+    resp = Rack::Response.new
+ 
+  # time_1 = Kernel.rand(1..12)
+  # time_2 = Kernel.rand(12..24)
+  
+ current_time = Time.now
+ binding.pry
+    # resp.write "#{time_1}\n"
+    # resp.write "#{time_2}\n"
+    resp.write "#{Time.now}\n"
+    
+    # if time_1 && time_2 == Time.now
+    if Time.now < 12
+      resp.write "Good Morning!"
+    else
+      resp.write "Good Afternoon!"
+    end
+ 
+    resp.finish
+  end
+ 
+end
